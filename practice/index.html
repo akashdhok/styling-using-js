@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.one div{
+    width: 100px;
+    height: 100px;
+   
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+.one div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.two div{
+    width: 400px;
+    height: 460px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+}
+.two div img{
+    width: 400px;
+    height: 460px;
+    border-radius: 10px;
+
+}
+
+    </style>
+</head>
+<body>
+   <section>
+    <article class="one">
+        <div><img src="./one.jpg" alt="" onmouseenter="one()"></div>
+        <div><img src="./two.jpg" alt="" onmouseenter="two()"></div>
+        <div><img src="./three.jpg" alt="" onmouseenter="three()"></div>
+        <div><img src="./four.jpg" alt="" onmouseenter="four()"></div>
+    </article>
+    <article class="two">
+        <div><img src="./one.jpg" alt="" id="img"></div>
+    </article>
+   </section>
+    <script src="./script.js"></script>
+</body>
+</html>
