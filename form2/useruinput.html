@@ -8,14 +8,20 @@
 <body>
     <form>
         <div id="errorname"></div>
-        <input type="text" placeholder="Enter name" id="name" onblur="s()"><br>
+        <input type="text" placeholder="Enter name" id="name" onblur="s('name')"><br>
 
-        <div id="erroremail"></div>
-        <input type="email" placeholder="Enter email" id="email" onblur="s()"><br>
-        
-        <input type="tel" placeholder="Enter Mobile number" id="mobile"><br>
-        <input type="password" placeholder="Enter password" id="password"><br>
-        <input type="password" placeholder="Enter confirm password" id="cpassword"><br>
+        <div id="erroremail">
+        <input type="email" placeholder="Enter email" id="email" onblur="s('email')"><br>
+        </div>
+        <div id="number">
+        <input type="tel" placeholder="Enter Mobile number" id="mobile" onblur="s('num')"><br>
+        </div>
+        <div id="password">
+        <input type="password" placeholder="Enter password" id="password" onblur="s('password')"><br>
+        </div>
+        <div id="conpassword">
+        <input type="password" placeholder="Enter confirm password" id="cpassword" onblur="s('confirm')"><br>
+        </div>
         <button onclick="return registration()"> Submit </button>
     </form>
     <script src="./userinput.js"></script>

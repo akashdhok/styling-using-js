@@ -1,0 +1,1 @@
+//string = collection of characters
